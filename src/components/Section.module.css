@@ -1,0 +1,45 @@
+.section {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feedback {
+    font-size: 30px; 
+}
+
+.statistics {
+    font-size: 30px;
+}
+
+.statElem {
+    font-weight: 500;
+    font-size: 18px;
+    color: #686363;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.button {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(224, 196, 162);
+    border-radius: 5px;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: rgba(70, 50, 26, 0.555)
+}
+
+.notify {
+    font-weight: 500;
+    font-size: 25px;
+}
